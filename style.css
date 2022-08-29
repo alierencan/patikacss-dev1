@@ -1,0 +1,104 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: #576F72;
+}
+.header-title{
+    color: white;
+    text-align: center;
+    font-size:1.5rem;
+}
+.menu{
+    background-color: #7D9D9C;
+    text-align: center;
+}
+.menu ul{
+    text-align: center;
+    display: flex;
+    padding: 1rem;
+    list-style: none;
+}
+
+.menu li{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.menu a{
+    text-decoration: none;
+    margin: 1rem;
+    text-align: center;
+    color: white;
+}
+.menu a:hover{
+    color: #333;
+}
+.box{
+    background-image: url(/img/ankara.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    position: relative;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.1);
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.4);
+    height: 350px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    font-size: 1.5rem;
+}
+.card:hover{
+    border: 1px solid black;
+    transform: scale(1.1);
+}
+.card a{
+    text-decoration: none;
+    color:white;
+}
+
+.card a:hover{
+    color: #333;
+}
+.footer{
+    background-color: #E4DCCF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    height: 100px;
+}
+.section{
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.section ul{
+    list-style: none;
+}
+.section_img{
+    width: 20%;
+    margin: 5px;
+}
+
+.section_text{
+    line-height: 1.5rem;
+
+}
+.section_title{
+    color:#333;
+    text-align: center;
+    margin: 10px;
+}
