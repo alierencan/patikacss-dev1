@@ -33,6 +33,11 @@
     text-align: center;
     color: white;
 }
+#title{
+    text-decoration: none;
+    color: white;
+    
+}
 .menu a:hover{
     color: #333;
 }
@@ -77,6 +82,18 @@
     align-items: center;
     font-weight: bold;
     height: 100px;
+    position: fixed;
+    bottom: 0px;
+    left:0px;
+    right: 0px;
+}
+.footer_text{
+    margin: 5px;
+    padding: 20px;
+}
+.footer_img{
+    margin: 5px;
+    padding: 20px;
 }
 .section{
     padding: 5px;
@@ -101,4 +118,28 @@
     color:#333;
     text-align: center;
     margin: 10px;
+}
+
+.label{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 5px;
+    display: block;
+    color: #333;
+}
+.input{
+    padding: 5px;
+    outline: none;
+}
+.input:hover, .input:focus{
+    background-color: #7D9D9C;
+    color: white;
+}
+.textarea{
+    padding: 20px;
+    outline: none;
+}
+.textarea:hover, .textarea:focus{
+    background-color: #7D9D9C;
+    color: white;
 }
